@@ -40,6 +40,20 @@ Tailwind Traders requires a detailed report that outlines the company’s latest
 A link to the c.s.v file for the first table for sales data can be downloaded [click](https://d3c33hcgiwev3.cloudfront.net/_2jXfvypQfuGZvUEtKJtXA_4f0aced6b1d94111a6eb81e85e3b00e1_Tailwind-Traders-Sales.xlsx?Expires=1716508800&Signature=B~uJ~d~tVewQqG~eKz7kBUM-RyK3~bWe0~wzhqcVsDbDlEqCMOhgs1EOEAMesHIH~asTPrnF2ZXy0JA7OIP0ry3wR5O~9Li~5FVsuumBMbW2oh5~wKfkqzlKeZ9H8vwE5qdoqIfZJi9HQ3OwYKcw2P0Dx-I5r9dABnqlU1nTnKM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 A sample of the downloaded table is pasted below 
 
+![image](https://github.com/Emperorian/Comprehensive-Data-Analysis-and-Visualization-Using-Power-BI/assets/101293550/06c555f6-e2fa-4827-8f91-053f28bb9067)
+
+This step is to calculate the gross revenue by using the formula =E2*G2 to calculate the revenue from each product. Which is to insert a column after Quantity Purchased and label it Gross Revenue. Next, calculate the Calculate Total Tax Create a Total Tax column next to Gross Revenue. Input the formula =F2*G2 to calculate the tax for each product. Calculate Net Revenue, Insert a Net Revenue column next to Total Tax. Use the formula =H2-I2 to determine the actual earnings post-tax for each product Observe the first 10 records and note the highest and lowest values for Net Revenue, Quantity Purchased, and Total Tax. In conjunction, observe neighboring columns like Sales Rep for trends.
+
+## Configure data sources
+   
+### Load the sales data
+
+At this stage of the project the sales data has been cleaned and structured, and additional columns has been added such as net revenue, quantity purchased, gross revenue, etc. Tailwind Traders needs to configure its data sources. The company has sought your help and needs you to add sales data, ensure the accuracy of its data types, and transform its historical currency exchange data. 
+
+Load the Tailwind Traders Sales file into Power BI and select Transform. Begin by loading the Tailwind Traders Sales data file into Power BI.
+
+
+
 
 
 
